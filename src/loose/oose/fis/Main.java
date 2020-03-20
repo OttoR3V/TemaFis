@@ -14,12 +14,12 @@ public class Main {
     public static void main(String[] args) {
 
         String[] xmlList = new String[6];
-        xmlList[0] = "<tag1>";
-        xmlList[1] = "text1";
-        xmlList[2] = "</tag1>";
-        xmlList[3] = "<tag2>";
-        xmlList[4] = "text2";
-        xmlList[5] = "</tag2>";
+        xmlList[1] = "<tag1>";
+        xmlList[2] = "text1";
+        xmlList[3] = "</tag1>";
+        xmlList[4] = "<tag2>";
+        xmlList[5] = "text2";
+        xmlList[6] = "</tag2>";
 
         Document xml = new XML(xmlList);
 
